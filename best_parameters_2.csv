@@ -1,0 +1,2 @@
+eta,eval_metric,lambda,max_depth,nthread,objective,seed,silent,subsample,score
+0.4,rmse,0.4,4,-1,reg:linear,22,0,0.9,0.779344683814
