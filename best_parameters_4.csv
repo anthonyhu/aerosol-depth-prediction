@@ -1,0 +1,2 @@
+nb_neurons_1,steps,gain_threshold,outliers_threshold,score
+10,3800,0.015,0.05,0.701658836521
