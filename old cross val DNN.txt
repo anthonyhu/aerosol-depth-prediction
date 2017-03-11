@@ -172,4 +172,372 @@ Pruning 4 RMSE: 0.587721979882
 Validation fold 5 RMSE: 0.703312550726
 Cross-validation score: 0.667188581927
 
+# Ensemble of 3 DNN
+Training the model with parameters: 
+{'gain_threshold': 0.005, 'steps': 1000, 'nb_neurons_1': 11, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.71116941007
+Pruning 2 RMSE: 0.710134244747
+Validation fold 1 RMSE: 0.67016269301
+Pruning 1 RMSE: 0.693788730369
+Pruning 2 RMSE: 0.681699022039
+Pruning 3 RMSE: 0.703264811229
+Pruning 4 RMSE: 0.671334288662
+Pruning 5 RMSE: 0.672755595177
+Validation fold 2 RMSE: 0.742960274892
+Pruning 1 RMSE: 0.693855159996
+Pruning 2 RMSE: 0.691917725258
+Validation fold 3 RMSE: 0.716453069035
+Pruning 1 RMSE: 0.698029552278
+Pruning 2 RMSE: 0.698402913616
+Validation fold 4 RMSE: 0.702381816743
+Pruning 1 RMSE: 0.669835541061
+Pruning 2 RMSE: 0.670934743074
+Validation fold 5 RMSE: 0.772065210064
+Cross-validation score: 0.720804612749
+    
+Training the model with parameters: 
+{'gain_threshold': 0.005, 'steps': 1100, 'nb_neurons_1': 11, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.710970210115
+Pruning 2 RMSE: 0.723884803499
+Pruning 3 RMSE: 0.705558405266
+Pruning 4 RMSE: 0.69082150458
+Pruning 5 RMSE: 0.709012637324
+Pruning 6 RMSE: 0.689840083409
+Pruning 7 RMSE: 0.682960915979
+Pruning 8 RMSE: 0.689320580892
+Pruning 9 RMSE: 0.733669462986
+Pruning 10 RMSE: 0.702594016806
+Pruning 11 RMSE: 0.700092614618
+Validation fold 1 RMSE: 0.639888747346
+Pruning 1 RMSE: 0.702693117724
+Validation fold 2 RMSE: 0.756274354279
+Pruning 1 RMSE: 0.691091309155
+Pruning 2 RMSE: 0.691357233141
+Validation fold 3 RMSE: 0.73679429174
+Pruning 1 RMSE: 0.714865007836
+Pruning 2 RMSE: 0.689779608571
+Pruning 3 RMSE: 0.688207703398
+Validation fold 4 RMSE: 0.686380994175
+Pruning 1 RMSE: 0.684824585281
+Pruning 2 RMSE: 0.669877290062
+Pruning 3 RMSE: 0.686328240571
+Pruning 4 RMSE: 0.663275388897
+Pruning 5 RMSE: 0.668140496708
+Validation fold 5 RMSE: 0.768409407507
+Cross-validation score: 0.717549559009
+    
+Training the model with parameters: 
+{'gain_threshold': 0.005, 'steps': 1100, 'nb_neurons_1': 11, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.705035094312
+Pruning 2 RMSE: 0.714659640929
+Pruning 3 RMSE: 0.712357459314
+Validation fold 1 RMSE: 0.661191916714
+Pruning 1 RMSE: 0.686965456513
+Validation fold 2 RMSE: 0.749879491243
+Pruning 1 RMSE: 0.689762043097
+Pruning 2 RMSE: 0.69232873535
+Validation fold 3 RMSE: 0.724016986696
+Pruning 1 RMSE: 0.690028220234
+Pruning 2 RMSE: 0.69337827918
+Validation fold 4 RMSE: 0.703435739334
+Pruning 1 RMSE: 0.681859928879
+Pruning 2 RMSE: 0.67091896457
+Pruning 3 RMSE: 0.677659388273
+Pruning 4 RMSE: 0.664039872409
+Pruning 5 RMSE: 0.667718583335
+Validation fold 5 RMSE: 0.757494009563
+Cross-validation score: 0.71920362871
+
+5 DNN model_dir for pruning {"dnn_1": 0.4, "dnn_2": 0.15, "dnn_3": 0.15,
+                  "dnn_4": 0.15, "dnn_5": 0.15}
+Training the model with parameters: 
+{'gain_threshold': 0.01, 'steps': 2100, 'nb_neurons_1': 9, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.676416816474
+Pruning 2 RMSE: 0.663520827885
+Pruning 3 RMSE: 0.655253952782
+Validation fold 1 RMSE: 0.638520567696
+Pruning 1 RMSE: 0.664297149376
+Pruning 2 RMSE: 0.651764716202
+Pruning 3 RMSE: 0.643706111477
+Validation fold 2 RMSE: 0.739466649119
+Pruning 1 RMSE: 0.664528195881
+Pruning 2 RMSE: 0.651617243289
+Pruning 3 RMSE: 0.644582271931
+Validation fold 3 RMSE: 0.718805738469
+Pruning 1 RMSE: 0.687431994827
+Pruning 2 RMSE: 0.673373446494
+Pruning 3 RMSE: 0.665013005853
+Validation fold 4 RMSE: 0.67264303545
+Pruning 1 RMSE: 0.659725291472
+Pruning 2 RMSE: 0.647505977336
+Pruning 3 RMSE: 0.640364412581
+Validation fold 5 RMSE: 0.756788708091
+Cross-validation score: 0.705244939765
+
+    
+Training the model with parameters: (same coefs)
+{'gain_threshold': 0.01, 'steps': 2100, 'nb_neurons_1': 11, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.671783958403
+Pruning 2 RMSE: 0.659132942345
+Pruning 3 RMSE: 0.65087802989
+Validation fold 1 RMSE: 0.642550227753
+Pruning 1 RMSE: 0.653374572234
+Pruning 2 RMSE: 0.63645978204
+Pruning 3 RMSE: 0.624386509142
+Pruning 4 RMSE: 0.6140196058
+Pruning 5 RMSE: 0.609660735924
+Validation fold 2 RMSE: 0.725755962849
+Pruning 1 RMSE: 0.664299289878
+Pruning 2 RMSE: 0.648366505728
+Pruning 3 RMSE: 0.640081573857
+Validation fold 3 RMSE: 0.714825658397
+Pruning 1 RMSE: 0.66744880357
+Pruning 2 RMSE: 0.651428349357
+Pruning 3 RMSE: 0.639399741055
+Pruning 4 RMSE: 0.631543676175
+Validation fold 4 RMSE: 0.670998448018
+Pruning 1 RMSE: 0.659382834695
+Pruning 2 RMSE: 0.639853733358
+Pruning 3 RMSE: 0.630634884058
+Validation fold 5 RMSE: 0.757291856953
+Cross-validation score: 0.702284430794
+    
+Training the model with parameters: (same coefs)
+{'gain_threshold': 0.01, 'steps': 1100, 'nb_neurons_1': 9, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.687293470623
+Pruning 2 RMSE: 0.673543089191
+Pruning 3 RMSE: 0.665733359442
+Validation fold 1 RMSE: 0.649368530503
+Pruning 1 RMSE: 0.679928297676
+Pruning 2 RMSE: 0.668609243864
+Pruning 3 RMSE: 0.662262044876
+Validation fold 2 RMSE: 0.744633907485
+Pruning 1 RMSE: 0.669438977141
+Pruning 2 RMSE: 0.658915490238
+Pruning 3 RMSE: 0.649607975009
+Validation fold 3 RMSE: 0.710778483402
+Pruning 1 RMSE: 0.708289420438
+Pruning 2 RMSE: 0.696308353637
+Pruning 3 RMSE: 0.689003339174
+Validation fold 4 RMSE: 0.710196884293
+Pruning 1 RMSE: 0.682813446172
+Pruning 2 RMSE: 0.670210695852
+Pruning 3 RMSE: 0.661776509643
+Validation fold 5 RMSE: 0.76190366844
+Cross-validation score: 0.715376294825
+
+5 DNN pruning with a first DNN then train 5 0.2 weighted DNN
+Training the model with parameters: 
+{'gain_threshold': 0.015, 'steps': 2200, 'nb_neurons_1': 9, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.694068399998
+Pruning 2 RMSE: 0.68319691192
+Validation fold 1 RMSE: 0.657984789376
+Pruning 1 RMSE: 0.665720056564
+Pruning 2 RMSE: 0.652525762923
+Validation fold 2 RMSE: 0.746126089816
+Pruning 1 RMSE: 0.670865372689
+Pruning 2 RMSE: 0.657049715495
+Validation fold 3 RMSE: 0.715898563369
+Pruning 1 RMSE: 0.674144585081
+Pruning 2 RMSE: 0.655254059805
+Pruning 3 RMSE: 0.645841747765
+Validation fold 4 RMSE: 0.686994886197
+Pruning 1 RMSE: 0.640782640919
+Pruning 2 RMSE: 0.62576629908
+Pruning 3 RMSE: 0.6191962246
+Validation fold 5 RMSE: 0.757705397434
+Cross-validation score: 0.712941945239
+
+Training the model with parameters: 
+{'gain_threshold': 0.01, 'steps': 3400, 'nb_neurons_1': 11, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.672635757823
+Pruning 2 RMSE: 0.661982328413
+Pruning 3 RMSE: 0.655412024265
+Validation fold 1 RMSE: 0.632837032519
+Pruning 1 RMSE: 0.642811068713
+Pruning 2 RMSE: 0.632067871794
+Pruning 3 RMSE: 0.624793548264
+Validation fold 2 RMSE: 0.727289064772
+Pruning 1 RMSE: 0.658106411403
+Pruning 2 RMSE: 0.635442263112
+Pruning 3 RMSE: 0.618591227467
+Pruning 4 RMSE: 0.609851324476
+Validation fold 3 RMSE: 0.717622664993
+Pruning 1 RMSE: 0.655587115002
+Pruning 2 RMSE: 0.64177101986
+Pruning 3 RMSE: 0.634889111319
+Validation fold 4 RMSE: 0.67796187099
+Pruning 1 RMSE: 0.635166511006
+Pruning 2 RMSE: 0.612866670615
+Pruning 3 RMSE: 0.602643711575
+Pruning 4 RMSE: 0.590786436001
+Pruning 5 RMSE: 0.585929889116
+Validation fold 5 RMSE: 0.745885863766
+Cross-validation score: 0.700319299408
+
+Training the model with parameters: 
+{'gain_threshold': 0.01, 'steps': 3200, 'nb_neurons_1': 9, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.673878243224
+Pruning 2 RMSE: 0.657360188279
+Pruning 3 RMSE: 0.642604850865
+Pruning 4 RMSE: 0.635441991907
+Validation fold 1 RMSE: 0.639493686463
+Pruning 1 RMSE: 0.650316328335
+Pruning 2 RMSE: 0.635764740628
+Pruning 3 RMSE: 0.625281288299
+Pruning 4 RMSE: 0.618857759816
+Validation fold 2 RMSE: 0.732526425149
+Pruning 1 RMSE: 0.663290232475
+Pruning 2 RMSE: 0.651664810483
+Pruning 3 RMSE: 0.638306582562
+Pruning 4 RMSE: 0.625389960277
+Pruning 5 RMSE: 0.619638207743
+Validation fold 3 RMSE: 0.709389594885
+Pruning 1 RMSE: 0.665109073757
+Pruning 2 RMSE: 0.655310627332
+Validation fold 4 RMSE: 0.684705184081
+Pruning 1 RMSE: 0.639195545405
+Pruning 2 RMSE: 0.624107169148
+Pruning 3 RMSE: 0.614627025796
+Validation fold 5 RMSE: 0.751663827286
+Cross-validation score: 0.703555743573
+
+Training the model with parameters: 
+{'gain_threshold': 0.01, 'steps': 2400, 'nb_neurons_1': 9, 'outliers_threshold': 0.06}
+Pruning 1 RMSE: 0.672027783277
+Pruning 2 RMSE: 0.658416156325
+Pruning 3 RMSE: 0.650714100529
+Validation fold 1 RMSE: 0.64726858528
+Pruning 1 RMSE: 0.67959968961
+Pruning 2 RMSE: 0.663599458586
+Pruning 3 RMSE: 0.653446512383
+Pruning 4 RMSE: 0.647451596973
+Validation fold 2 RMSE: 0.73745400766
+Pruning 1 RMSE: 0.671306058337
+Pruning 2 RMSE: 0.652840696921
+Pruning 3 RMSE: 0.641901681627
+Pruning 4 RMSE: 0.634831914775
+Validation fold 3 RMSE: 0.711275356156
+Pruning 1 RMSE: 0.672597980531
+Pruning 2 RMSE: 0.660307287653
+Pruning 3 RMSE: 0.655366412873
+Validation fold 4 RMSE: 0.682952884798
+Pruning 1 RMSE: 0.652781515031
+Pruning 2 RMSE: 0.638197522441
+Pruning 3 RMSE: 0.628958394346
+Validation fold 5 RMSE: 0.768046027259
+Cross-validation score: 0.70939937223
+    
+    
+Training the model with parameters: 
+{'gain_threshold': 0.01, 'steps': 2400, 'nb_neurons_1': 10, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.686858771359
+Pruning 2 RMSE: 0.672878467855
+Pruning 3 RMSE: 0.665149234767
+Validation fold 1 RMSE: 0.642083994677
+Pruning 1 RMSE: 0.652773718198
+Pruning 2 RMSE: 0.641075258377
+Pruning 3 RMSE: 0.63371016034
+Validation fold 2 RMSE: 0.738007531296
+Pruning 1 RMSE: 0.663196334567
+Pruning 2 RMSE: 0.643597311854
+Pruning 3 RMSE: 0.630428357205
+Pruning 4 RMSE: 0.623077216084
+Validation fold 3 RMSE: 0.71170883265
+Pruning 1 RMSE: 0.689810676757
+Pruning 2 RMSE: 0.677621845341
+Pruning 3 RMSE: 0.669599938078
+Validation fold 4 RMSE: 0.690884317575
+Pruning 1 RMSE: 0.651690464316
+Pruning 2 RMSE: 0.639165758066
+Pruning 3 RMSE: 0.630737742502
+Validation fold 5 RMSE: 0.753819804982
+Cross-validation score: 0.707300896236
+
+# 1 DNN with model_dir corrected
+Training the model with parameters: 
+{'gain_threshold': 0.005, 'steps': 1000, 'nb_neurons_1': 11, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.708254362329
+Pruning 2 RMSE: 0.690809364036
+Pruning 3 RMSE: 0.681259286244
+Pruning 4 RMSE: 0.675679762642
+Pruning 5 RMSE: 0.670965511179
+Validation fold 1 RMSE: 0.64861798817
+Pruning 1 RMSE: 0.658292571898
+Pruning 2 RMSE: 0.645737414652
+Pruning 3 RMSE: 0.63797501753
+Pruning 4 RMSE: 0.632583378549
+Pruning 5 RMSE: 0.627584029004
+Validation fold 2 RMSE: 0.723643911448
+Pruning 1 RMSE: 0.687961545764
+Pruning 2 RMSE: 0.672401033846
+Pruning 3 RMSE: 0.660611288466
+Pruning 4 RMSE: 0.650237174155
+Pruning 5 RMSE: 0.64198570573
+Pruning 6 RMSE: 0.636986731147
+Validation fold 3 RMSE: 0.719981056486
+Pruning 1 RMSE: 0.697781938911
+Pruning 2 RMSE: 0.681268268398
+Pruning 3 RMSE: 0.671483140797
+Pruning 4 RMSE: 0.666088232133
+Pruning 5 RMSE: 0.661858777702
+Validation fold 4 RMSE: 0.715854578144
+Pruning 1 RMSE: 0.66224449426
+Pruning 2 RMSE: 0.644538081642
+Pruning 3 RMSE: 0.634079022739
+Pruning 4 RMSE: 0.624630852786
+Pruning 5 RMSE: 0.619603795183
+Pruning 6 RMSE: 0.61598970139
+Validation fold 5 RMSE: 0.762927716346
+Cross-validation score: 0.714205050119
+
+Training the model with parameters: 
+{'gain_threshold': 0.01, 'steps': 1100, 'nb_neurons_1': 10, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.713960264442
+Pruning 2 RMSE: 0.701637487701
+Pruning 3 RMSE: 0.69375349128
+Validation fold 1 RMSE: 0.641879797964
+Pruning 1 RMSE: 0.671532366166
+Pruning 2 RMSE: 0.656442799709
+Pruning 3 RMSE: 0.645330625403
+Pruning 4 RMSE: 0.638014896705
+Validation fold 2 RMSE: 0.741045867638
+Pruning 1 RMSE: 0.690110283558
+Pruning 2 RMSE: 0.678068607072
+Pruning 3 RMSE: 0.662923307388
+Pruning 4 RMSE: 0.654881538105
+Validation fold 3 RMSE: 0.687377107282
+Pruning 1 RMSE: 0.70616839345
+Pruning 2 RMSE: 0.692895897509
+Pruning 3 RMSE: 0.686021953655
+Validation fold 4 RMSE: 0.688327537634
+Pruning 1 RMSE: 0.66943420746
+Pruning 2 RMSE: 0.65286815522
+Pruning 3 RMSE: 0.638691155949
+Pruning 4 RMSE: 0.627600556022
+Pruning 5 RMSE: 0.622316478
+Validation fold 5 RMSE: 0.765910014041
+Cross-validation score: 0.704908064912
+
+5 DNN and use the pruning DNN
+Training the model with parameters: 
+{'gain_threshold': 0.015, 'steps': 3800, 'nb_neurons_1': 10, 'outliers_threshold': 0.05}
+Pruning 1 RMSE: 0.674073882641
+Pruning 2 RMSE: 0.662346176042
+Validation fold 1 RMSE: 0.641617979853
+Pruning 1 RMSE: 0.635676000166
+Pruning 2 RMSE: 0.619615432596
+Pruning 3 RMSE: 0.610423043833
+Validation fold 2 RMSE: 0.73246715849
+Pruning 1 RMSE: 0.643307566169
+Pruning 2 RMSE: 0.62938122591
+Validation fold 3 RMSE: 0.710291994342
+Pruning 1 RMSE: 0.659927208941
+Pruning 2 RMSE: 0.647666579446
+Validation fold 4 RMSE: 0.670328953596
+Pruning 1 RMSE: 0.632532403066
+Pruning 2 RMSE: 0.614925033513
+Pruning 3 RMSE: 0.605334750968
+Validation fold 5 RMSE: 0.753588096326
+Cross-validation score: 0.701658836521
 
