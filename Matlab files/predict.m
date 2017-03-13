@@ -8,16 +8,16 @@
         v_v = [1:1]; %[1:10]; indices of the random runs; number of random runs = length(v_v); '_v': vector
     %distribution embedding:
         cost_name = 'expected'; %name of the used embedding
-            kernel = 'Cauchy'; %'RBF', 'exponential', 'Cauchy', 'student', 'Matern3p2', 'Matern5p2','poly2', 'poly3','ratquadr', 'invmquadr'; see 'Kexpected_initialization.m' if cost_name = 'expected'
+            kernel = 'ratquadr'; %'RBF', 'exponential', 'Cauchy', 'student', 'Matern3p2', 'Matern5p2','poly2', 'poly3','ratquadr', 'invmquadr'; see 'Kexpected_initialization.m' if cost_name = 'expected'
             %kernel parameter:
                 base_kp = 2; %fine-grainedness of the parameter scan; smaller base_kp = finer scan, 'kp': kernel parameter
-                kp_v = base_kp.^[2:4]; %candidate kernel parameters ('RBF widths'); '_v': vector
+                kp_v = base_kp.^[8:10]; %candidate kernel parameters ('RBF widths'); '_v': vector
     %regularization parameter (lambda):
         base_rp = 2;  %fine-grainedness of the parameter scan; smaller base_rp = finer scan; 'rp': regularization parameter
-        rp_v = base_rp.^[-35:-3]; %candidate regularization parameters (lambda)
+        rp_v = base_rp.^[-39:-1]; %candidate regularization parameters (lambda)
     %experiment generation, precomputing, plot:
-        load_generated_experiment = 1; %if you would like to generate a new experiment (and study the efficiency of multiply kernels, ...), then load_generated_experiment = 0; else you just load the already generated dataset (=1).
-        load_precomputed_Gram_matrices = 1; %0/1; if you have already precomputed the Gram matrices set precompute_Gram_matrices = 1; else =0.
+        load_generated_experiment = 0; %if you would like to generate a new experiment (and study the efficiency of multiply kernels, ...), then load_generated_experiment = 0; else you just load the already generated dataset (=1).
+        load_precomputed_Gram_matrices = 0; %0/1; if you have already precomputed the Gram matrices set precompute_Gram_matrices = 1; else =0.
         plot_needed = 1; %plot the results: 0/1
     
 %matlabpool open; %use this line with 'Matlab: parallel computing'
@@ -111,7 +111,7 @@
             result(:, 2) = Y_predicted_test;
             %csvwrite('Prediction_10.csv', result);
             % Decimals precision
-            dlmwrite('Prediction_10.csv', result, 'delimiter', ',', 'precision', 15); 
+            %dlmwrite('Prediction_10.csv', result, 'delimiter', ',', 'precision', 15); 
             
             
             % Compute test RMSE

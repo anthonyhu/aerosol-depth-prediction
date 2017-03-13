@@ -28,13 +28,13 @@
         v_v = [1:5]; %[1:10]; indices of the random runs; number of random runs = length(v_v); '_v': vector
     %distribution embedding:
         cost_name = 'expected'; %name of the used embedding
-            kernel = 'ratquadr'; %'RBF', 'exponential', 'Cauchy', 'student', 'Matern3p2', 'Matern5p2','poly2', 'poly3','ratquadr', 'invmquadr'; see 'Kexpected_initialization.m' if cost_name = 'expected'
+            kernel = 'Matern3p2'; %'RBF', 'exponential', 'Cauchy', 'student', 'Matern3p2', 'Matern5p2','poly2', 'poly3','ratquadr', 'invmquadr'; see 'Kexpected_initialization.m' if cost_name = 'expected'
             %kernel parameter:
                 base_kp = 2; %fine-grainedness of the parameter scan; smaller base_kp = finer scan, 'kp': kernel parameter
-                kp_v = base_kp.^[9:12]; %candidate kernel parameters ('RBF widths'); '_v': vector
+                kp_v = base_kp.^[9:9]; %candidate kernel parameters ('RBF widths'); '_v': vector
     %regularization parameter (lambda):
         base_rp = 2;  %fine-grainedness of the parameter scan; smaller base_rp = finer scan; 'rp': regularization parameter
-        rp_v = base_rp.^[-35:-3]; %candidate regularization parameters (lambda)
+        rp_v = base_rp.^[-39:-1]; %candidate regularization parameters (lambda)
     %experiment generation, precomputing, plot:
         load_generated_experiment = 0; %if you would like to generate a new experiment (and study the efficiency of multiply kernels, ...), then load_generated_experiment = 0; else you just load the already generated dataset (=1).
         load_precomputed_Gram_matrices = 0; %0/1; if you have already precomputed the Gram matrices set precompute_Gram_matrices = 1; else =0.
