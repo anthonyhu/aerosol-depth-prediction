@@ -90,12 +90,8 @@ ENV/
 
 # Training data
 X.csv
-ysamplesubmission.csv
 ytr.csv
-MODIS.csv
-ITE-1.0_code
 ITE-0.63_code
-ite
 aerosol_train.csv
 aerosol_full.csv
 
@@ -104,3 +100,6 @@ KAGGLE PRACTICAL
 
 # cvs files of kernel mean embeddings
 kernels_me
+
+# Old files
+Archives
