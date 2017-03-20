@@ -6,11 +6,11 @@ Among the biggest challenges of current climate research is the impact of Aeroso
 
 The Multiple Instance Regression (MIR) problem arises when the label of every data point is not known uniquely but the labels are instead shared among grouping of instances denoted bag. The goal is to train a regression model that can accurately predict the label of an unlabelled bag of instances.
 
-In our case, each bag is made of 100 satellite measurements in a given geographic area. The label of the bag is the Aerosol Optical Depth directly measured by an instrument on the field.
+In our case, each bag is made of 100 satellite measurements in a given geographic area. The label of the bag is the Aerosol Optical Depth directly measured by an instrument on the field. The data is available here: https://inclass.kaggle.com/c/aerosol-prediction-practical
 
 ## Pruning approach
 
-The AOD in a geographic area does not vary much within a reasonable range (up to 100km) however the precision of the satellite measurement is greatly dependent on the surface and on the presence of clouds. Our first approach will try to get rid of those noisy instances in each bag by recursively pruning them.
+The AOD in a geographic area does not vary much within a reasonable range (up to 100km) however the precision of the satellite measurement is greatly dependent on the surface and on the presence of clouds. Our first approach in the "Instances pruning with tensorflow" notebook will try to get rid of those noisy instances in each bag by recursively pruning them.
 
 ## Distribution regression
 
