@@ -90,7 +90,7 @@ ENV/
 
 # Training data
 X.csv
-ytr.csv
+y_train.csv
 ITE-0.63_code
 aerosol_train.csv
 aerosol_full.csv
