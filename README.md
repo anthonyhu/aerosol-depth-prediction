@@ -11,10 +11,10 @@ In our case, each bag is made of 100 satellite measurements of reflectances (the
 ## Pruning approach
 
 The AOD in a geographic area does not vary much within a reasonable range (up to 100km) however the satellite measurements is greatly dependent on the surface and on the presence of clouds. More precisely, the radiance measured by the satellite is a combination of the light reflected by the surface and by the atmosphere. If the surface is dark, all the light will be absorbed and only the reflected light from the atmosphere will be measured by the satellite, meaning that the AOD can be calculated with a deterministic function.
-However, not all the instances in the bag come from a dark surface and that is why in our first approach, in the "Instances pruning with tensorflow" notebook, we will try to get rid of those noisy instances (instances associated with light surfaces) in each bag by recursively pruning them.
+However, not all the instances in the bag come from a dark surface and that is why in our first approach, in the "__Instances pruning with tensorflow__" notebook, we will try to get rid of those noisy instances (instances associated with light surfaces) in each bag by recursively pruning them.
 
 ## Distribution regression
 
-Instead  of  fitting  a  model  to  the  instances,  the  idea  of  distribution  regression is  to  find  a regression on the underlying probability distributions the instances come from. This approached proved to give more satisfactory results and is detailed in the notebook: "Distribution regression".
+Instead  of  fitting  a  model  to  the  instances,  the  idea  of  distribution  regression is  to  find  a regression on the underlying probability distributions the instances come from. This approached proved to give more satisfactory results and is detailed in the notebook: "__Distribution regression__".
 
 
