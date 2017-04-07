@@ -1,6 +1,6 @@
 # Multiple Instance Regression: Aerosol optical depth prediction
 
-Among the biggest challenges of current climate research is the impact of Aerosols on the Earth’s climate and our health. Recent satellite spectral images and measurements enable us to tackle the problem of predicting Aerosol Optical Depth (AOD). Several approaches are considered. Our final model uses a probabilistic approach: observations are assumed to be sampled from a distribution and each distribution summarised by a kernel mean embedding.  AOD is predicted for each instance with Kernel Ridge regression and the results combined through a neural network.  This stacking model gave a public leaderboard score of __0.6646__, the best performance among our peers on the test data provided.
+Among the biggest challenges of current climate research is the impact of Aerosols on the Earth’s climate and our health. Recent satellite spectral images and measurements enable us to tackle the problem of predicting Aerosol Optical Depth (AOD). Several approaches are considered. Our final model uses a probabilistic approach: observations are assumed to be sampled from a distribution and each distribution summarised by a kernel mean embedding.  AOD is predicted for each instance with Kernel Ridge regression and the results combined through a neural network.  This stacking model gave a public leaderboard score of __0.6646__ (RMSE metric), the best performance among our peers on the test data provided.
 
 ## Presentation
 
